@@ -1,0 +1,12 @@
+django-admin startproject project_name
+cd project_name
+django-admin startapp app_name
+
+# add the app to the settings.py file under project_name directory
+i.e.
+INSTALLED_APPS = [
+	'app_name.apps.ApiConfig',
+]
+
+
+
